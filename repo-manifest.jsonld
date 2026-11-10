@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/strawlab/iana-time-zone/commit/c6fe5ec58eb6989860c8ce137bc5b566c7232d9e",
       "git:hexsha": "c6fe5ec58eb6989860c8ce137bc5b566c7232d9e",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     },
     {
       "@id": "https://repolex.ai/r/strawlab/iana-time-zone/commit/5d27e37a17aebf259cd22d79481c37bd57f8a49b",
