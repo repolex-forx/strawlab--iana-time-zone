@@ -1,0 +1,11 @@
+{
+  "org": "strawlab",
+  "repo": "iana-time-zone",
+  "versions": [
+    {
+      "commit": "c6fe5ec58eb6989860c8ce137bc5b566c7232d9e",
+      "tag": "",
+      "parsed_at": "2026-11-10T08:53:06.876191+00:00"
+    }
+  ]
+}
