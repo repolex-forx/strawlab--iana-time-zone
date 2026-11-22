@@ -1,0 +1,17 @@
+[2026-11-22T01:56:35Z] === ENRICH ITERATION 1 START | repo=strawlab/iana-time-zone sha=37269681 ===
+[2026-11-22T01:56:35Z] [iter=1] PHASE START: enrich repo=strawlab/iana-time-zone sha=37269681 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/37269681-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz
+[2026-11-22T01:56:36Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T01:56:39Z] [iter=1] AST store loaded triples=112778 load_secs=3 mem_mb=230 MB
+[2026-11-22T01:56:39Z] [iter=1] Step 2: Finding LSP targets mem_mb=230 MB
+[2026-11-22T01:56:39Z] [iter=1] LSP targets found call_sites=816 imports=26 extends=0 implements=0 secs=0
+[2026-11-22T01:56:39Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=230 MB
+[2026-11-22T01:56:40Z] [iter=1] Position index built positions=7513 nodes_with_types=9672 secs=0 mem_mb=230 MB
+[2026-11-22T01:56:40Z] [iter=1] Step 3: Starting LSP resolution mem_mb=230 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T01:56:40Z] [iter=1] Resolving target type target_type=call_site count=816
+[2026-11-22T01:57:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=2 resolved=60 errors=0 current=haiku/build.rs
+[2026-11-22T01:57:14Z] [iter=1] Target type resolved target_type=call_site resolved=123 errors=0 secs=34 mem_mb=230 MB
+[2026-11-22T01:57:14Z] [iter=1] Resolving target type target_type=import_statement count=26
+[2026-11-22T01:57:21Z] [iter=1] Target type resolved target_type=import_statement resolved=10 errors=0 secs=7 mem_mb=230 MB
+[2026-11-22T01:57:31Z] [iter=1] Step 5: Writing final enrichment file triples=3757
+[2026-11-22T01:57:31Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz size_kb=62
+[2026-11-22T01:57:31Z] [iter=1] PHASE END: enrich elapsed_s=56 elapsed_min=0.9 total_triples=3757

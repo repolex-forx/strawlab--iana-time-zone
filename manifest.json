@@ -111,6 +111,41 @@
       ],
       "ast": [
         "aggregate/ast/3726968181ae67d95c8de2f750a95b9c703ae4c8/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "chrono-tz",
+          "ecosystem": "CARGO",
+          "version": "0.10.1",
+          "githubOrg": "chronotope",
+          "githubRepo": "chrono-tz",
+          "githubCommit": "bc86bc5d956f4ef2655f3e56fabfbada948bbc5c",
+          "githubTag": "v0.10.1",
+          "githubUrl": "https://github.com/chronotope/chrono-tz",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "getrandom",
+          "ecosystem": "CARGO",
+          "version": "0.2.1",
+          "githubOrg": "rust-random",
+          "githubRepo": "getrandom",
+          "githubCommit": "95be9b40b4e8f580da0c8a788365122fff3d304f",
+          "githubTag": "v0.2.1",
+          "githubUrl": "https://github.com/rust-random/getrandom",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "cc",
+          "ecosystem": "CARGO",
+          "version": "1.11.3",
+          "githubOrg": "rust-lang",
+          "githubRepo": "cc-rs",
+          "githubUrl": "https://github.com/rust-lang/cc-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cc-1.11.3/src/lib.rs"
+        }
       ]
     }
   ],
