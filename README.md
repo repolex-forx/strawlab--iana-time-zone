@@ -36,9 +36,15 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 3726968181ae67d95c8de2f750a95b9c703ae4c8
+│   │   │   └── chunk-001.nq.gz
 │   │   └── c6fe5ec58eb6989860c8ce137bc5b566c7232d9e
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz
 │   └── repolex
+│       ├── 3726968181ae67d95c8de2f750a95b9c703ae4c8
+│       │   └── chunk-001.nq.gz
 │       └── c6fe5ec58eb6989860c8ce137bc5b566c7232d9e
 │           └── chunk-001.nq.gz
 ├── blob
@@ -67,6 +73,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 69c36b5532a38d60c629dbd3166f16c7ffe77e7d.nq.gz
 │   ├── 6c93d04a489fe0c343bd57b8d7378b20446cd649.nq.gz
 │   ├── 6cd2193df19c1a217e797fdaf73e272dad53c724.nq.gz
+│   ├── 6ef04ab2ff55b9c11c47020f2490937508cac119.nq.gz
 │   ├── 73df86f51b6fd345a16d8d47b2e952dd0994d24f.nq.gz
 │   ├── 76219eb72e8524f15c21ec93b9b2592da49b5460.nq.gz
 │   ├── 7ef5d933900b3c696b8f917f7a35d6d5e709c890.nq.gz
@@ -82,6 +89,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── cc628be688d52e004c0bbb4eabbcd4e0237034ac.nq.gz
 │   ├── d1c92cd3b7486889da348bae22d3591e0abc1963.nq.gz
 │   ├── d78372b6d93f386d3cf861e5918d0d80ff826127.nq.gz
+│   ├── e12d1c8fa0029631f100dea7bcd88ef9df9efbaa.nq.gz
 │   ├── ec783eba72e072c6a461ba1a265528109e762ec1.nq.gz
 │   ├── ec9fdf1384ac02b80c4569aed76f0ee76eb2b25d.nq.gz
 │   └── f974c2720be234c79f112be60187763ce09194f2.nq.gz
@@ -89,7 +97,10 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz
 ├── filetree
+│   ├── 3726968181ae67d95c8de2f750a95b9c703ae4c8.nq.gz
 │   └── c6fe5ec58eb6989860c8ce137bc5b566c7232d9e.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -98,7 +109,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 51 files
+17 directories, 58 files
 ```
 
 | Directory | What it contains |
@@ -119,4 +130,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [strawlab/iana-time-zone](https://github.com/strawlab/iana-time-zone)
 
 ---
-*Parsed on 2026-11-10 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-22 by [repolex](https://repolex.ai)*

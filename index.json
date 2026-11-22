@@ -3,6 +3,11 @@
   "repo": "iana-time-zone",
   "versions": [
     {
+      "commit": "3726968181ae67d95c8de2f750a95b9c703ae4c8",
+      "tag": "v0.1.65",
+      "parsed_at": "2026-11-22T02:00:48.743762+00:00"
+    },
+    {
       "commit": "c6fe5ec58eb6989860c8ce137bc5b566c7232d9e",
       "tag": "",
       "parsed_at": "2026-11-10T08:53:06.876191+00:00"
